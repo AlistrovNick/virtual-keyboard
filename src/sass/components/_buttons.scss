@@ -1,0 +1,46 @@
+.btn {
+    width: 50px;
+    height: 50px;
+    font-size: 2.5rem;
+    background-color: $color-black-s;
+    color: $color-white;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: $color-black-m;
+    }
+
+    &.active {
+        background-color: #676ea1;
+    }
+    &-dark {
+        font-size: 1.6rem;
+        background-color: $color-black-l;
+    }
+
+    &-backspace {       
+        width: 120px;
+    }
+    &-tab {
+        width: 60px;
+    }
+    &-capslock {
+        width: 100px;
+    }
+    &-enter {
+        width: 130px;
+    }
+    &-shiftleft, &-shiftright {
+        width: 115px;
+    }
+    &-controlleft, &-controlright {
+        width: 60px;
+    }
+    &-altleft, &-altright {
+        width: 60px;
+    }
+    &-space {
+        width: 375px;
+        background-color: $color-black-s;
+    }
+}
